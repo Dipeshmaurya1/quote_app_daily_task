@@ -6,7 +6,7 @@ class TicTacToe {
 
   TicTacToe()
       : board = List.generate(3, (_) => List.filled(3, ' ')),
-        currentPlayer = 'X';
+        currentPlayer = 'O';
 
   void displayBoard() {
     for (var row in board) {
@@ -15,7 +15,7 @@ class TicTacToe {
     }
   }
 
-  bool makeMove(int row, int col) {
+  bool Move(int row, int col) {
     if (row < 0 || row >= 3 || col < 0 || col >= 3 || board[row][col] != ' ') {
       return false;
     }
@@ -47,7 +47,7 @@ class TicTacToe {
     return false;
   }
 
-  bool isBoardFull() {
+  bool isDraw() {
     for (var row in board) {
       if (row.contains(' ')) {
         return false;
@@ -63,11 +63,11 @@ class TicTacToe {
   void play() {
     while (true) {
       displayBoard();
-      print('Player $currentPlayer, enter your move (row and column): ');
+      print('Player $currentPlayer, Enter your move (row and column): ');
       int row = int.parse(stdin.readLineSync()!);
       int col = int.parse(stdin.readLineSync()!);
 
-      if (!makeMove(row, col)) {
+      if (!Move(row, col)) {
         print('Invalid move. Try again.');
         continue;
       }
@@ -78,7 +78,7 @@ class TicTacToe {
         break;
       }
 
-      if (isBoardFull()) {
+      if (isDraw()) {
         displayBoard();
         print('The game is a draw!');
         break;
