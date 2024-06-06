@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:quote_app_daily_task/Utils/routes.dart';
 
-import 'Component/Screens/random_quotes.dart';
+import 'Component/Screens/RandomQuote/random_quotes.dart';
 void main(){
   runApp(MyApp());
 }

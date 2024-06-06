@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:quote_app_daily_task/Component/Screens/quotes_model.dart';
+import 'package:quote_app_daily_task/Component/Screens/RandomQuote/quotes_model.dart';
 import 'package:quote_app_daily_task/Utils/quotes_list.dart';
 QuoteModel? quoteModel;
 class QuotesScreen extends StatefulWidget {
