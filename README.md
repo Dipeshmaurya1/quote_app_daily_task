@@ -1,3 +1,5 @@
+
+https://github.com/Dipeshmaurya1/quote_app_daily_task/assets/149373441/5ad873e2-aebc-4f21-80ba-ccbe4a9857fc
 # 1. Factory Constructor
 - In `Dart`, and by extension in Flutter, a Factory Constructor is a special type of constructor that is used to return an instance of a class.a factory constructor can return an existing instance, a subtype instance, or even null. Factory constructors are particularly useful when you need more control over the instance creation process.
 
@@ -19,3 +21,24 @@
 2. Create the Model Class: Define the CounterModel class with necessary state and methods.
 3. Set Up the Provider: Configure the provider in the widget tree.
 4. Use the Model in the UI: Use the Consumer widget to access and modify the model in the UI.
+<h1 align = "center"> Random Quotes Generator </h1>
+<p>
+  <img src='https://github.com/Dipeshmaurya1/quote_app_daily_task/assets/149373441/5f60aedc-1c8d-4e28-a5d6-fc7fed5bca31' height=35%, width=22%>
+</p>
+<p>
+  <img src='https://github.com/Dipeshmaurya1/quote_app_daily_task/assets/149373441/8c3a4f01-0781-4c42-9739-9e01cb73dac3' height=35%, width=22%>
+</p>
+
+<a  href="">-> 📂 Go To Dart File 📂<-</a>
+
+
+
+
+
+
+
+
+
+
+
+
