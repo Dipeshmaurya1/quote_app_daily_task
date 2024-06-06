@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quote_app_daily_task/Component/Screens/tic_tac_toe_screen.dart';
+import 'package:quote_app_daily_task/Utils/routes.dart';
+
+import 'Component/Screens/random_quotes.dart';
 void main(){
   runApp(MyApp());
 }
@@ -11,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner:false,
-      home: HomeScreen(),
+        routes: AppRoutes.routes,
     );
   }
 }
